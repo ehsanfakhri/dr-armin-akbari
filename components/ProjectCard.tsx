@@ -17,8 +17,8 @@ import { Button } from "./ui/button";
 type ProjectProps = {
   project: {
     image: string;
-    image_befor: string;
-    image_after: string;
+    image_befor?: string;
+    image_after?: string;
     category: string;
     name: string;
     description: string;
@@ -49,9 +49,7 @@ const ProjectCard = ({ project }: ProjectProps) => {
               className="bg-tertiary w-[54px] h-[54px] rounded-full flex justify-center items-center
                             scale-0 opacity-0 group-hover:scale-100
                             group-hover:opacity-100 transition-all duration-200"
-            >
-             
-            </div>
+            ></div>
           </div>
         </div>
       </CardHeader>
