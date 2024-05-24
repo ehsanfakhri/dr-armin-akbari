@@ -19,21 +19,21 @@ import { Pagination } from "swiper/modules";
 // reviwes data
 const reviwesData = [
   {
-    avatar: "/reviews/avatar-1.png",
+    avatar: "/reviews/avatar-2.png",
     name: "زهرا امانی",
     job: "Chef",
     review:
       "همسر من مشکل خر و پف داشت شبا به شدت خروپف میکرد یکی از دوستانمون ارمین اکبری رو بهمون معرفی کرد و همسرم الان بهبود پیدا کرده خداروشکر دکتر خیلی خوبی بود",
   },
   {
-    avatar: "/reviews/avatar-2.png",
+    avatar: "/reviews/avatar-1.png",
     name: "نیما خوشرو",
     job: "Interor Designer",
     review:
       "من خیلی تو قزوین دنبال یه دکتر خوب برای عمل زیبایی گوش گشتم تا اینکه یکی از دوستام دکتر ارمین اکبری رو بهم معرفی کرد واقعا خوشحالم که پیش ایشون عمل کردم",
   },
   {
-    avatar: "/reviews/avatar-3.png",
+    avatar: "/reviews/avatar-4.png",
     name: "تارا",
     job: "Game Dev",
     review:

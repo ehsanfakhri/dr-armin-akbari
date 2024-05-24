@@ -96,7 +96,7 @@ const projectData = [
 ];
 const Work = () => {
   return (
-    <section className=" h-[1000px]  bg-primary-foreground  ">
+    <section className=" h-[1000px]    ">
       <div className="container mx-auto w-full">
         <div className="flex flex-col items-center  ">
           {/* text */}
@@ -105,9 +105,7 @@ const Work = () => {
         xl:text-center mb-12 flex flex-col 
         "
           >
-            <h2 className="section-title  dark:bg-primary mx-auto my-4">
-              آخرین نمونه کارها
-            </h2>
+            <h2 className="section-title  mx-auto my-4">آخرین نمونه کارها</h2>
             <span className="font-semibold p-8 text-primary text-xl">
               زیبا شدن سخت نیست
             </span>

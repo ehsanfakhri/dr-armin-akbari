@@ -32,7 +32,7 @@ const Hero = () => {
     bg-bottom bg-cover dark:bg-none"
     >
       <div className="container mx-auto">
-        <div className="flex justify-between gap-x-8">
+        <div className="flex justify-between gap-x-4">
           {/* image */}
           <div className="hidden xl:flex relative">
             {/* badge 1 */}
@@ -72,14 +72,18 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary  ">
               جراح و متخصص گوش و حلق و بینی
             </div>
-            <h1 className="h1 mb-4"> دکتر آرمین اکبری</h1>
-            <p className="subtitle max-w-[490px] mx-auto  xl:mx-0 text-right">
+            <h1 className="h1 text-nowrap mb-4"> دکتر آرمین اکبری</h1>
+            <p className="subtitle max-w-[490px] mx-auto  xl:mx-0 xl:text-right text-center">
               متخصص گوش و حلق و بینی و جراحی زیبایی صورت و بینی، سینوس و
-              اندوسکوپی، جراحی‌های اختلالات خواب و خروپف، جراحی‌های پروتز صورت،
+              اندوسکوپی، جراحی‌های اختلالات خواب و خروپف، جراحی‌های پروتز صورت
             </p>
 
+            {/* show portfolio */}
+            <div className="xl:hidden">
+              <ShowPortfolio />
+            </div>
             {/* buttons */}
-            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
+            <div className="flex flex-col gap-y-3  gap-x-3 mx-auto xl:mx-0 xl:flex-row mb-12">
               <Link href="/contact">
                 <Button className="gap-x-2 hidden sm:inline-flex">
                   مشاوره واتسپ
@@ -93,11 +97,6 @@ const Hero = () => {
                 دریافت نوبت آنلاین
                 <Clock size={18} />
               </Button>
-            </div>
-
-            {/* show portfolio */}
-            <div className="xl:hidden">
-              <ShowPortfolio />
             </div>
           </div>
         </div>

@@ -26,7 +26,7 @@ const ShowPortfolio = ({ containerStyle }: IShowPortfolioProps) => {
     >
       <Carousel
         plugins={[plugin.current]}
-        className="w-full max-w-xs"
+        className="w-full xl:max-w-xs max-w-60"
         onMouseEnter={plugin.current.stop}
         onMouseLeave={plugin.current.reset}
       >
@@ -36,15 +36,13 @@ const ShowPortfolio = ({ containerStyle }: IShowPortfolioProps) => {
               <div className="p-1">
                 <Card>
                   <CardContent className="flex aspect-square items-center justify-center p-4 ">
-                    <span className="text-4xl font-semibold">
-                      <Image
-                        src={"/hero/befor-after-1.jpg"}
-                        width={500}
-                        height={500}
-                        priority
-                        alt=""
-                      />
-                    </span>
+                    <Image
+                      src={"/hero/befor-after-1.jpg"}
+                      width={500}
+                      height={500}
+                      priority
+                      alt=""
+                    />
                   </CardContent>
                 </Card>
               </div>

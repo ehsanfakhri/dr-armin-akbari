@@ -171,7 +171,7 @@ const About = () => {
           {/* tabs */}
           <div className="flex-1">
             <Tabs defaultValue="personal">
-              <TabsList className="w-full grid xl:grid-cols-2 xl:max-w-full xl:border dark:border-none bg-primary-foreground">
+              <TabsList className="w-full grid xl:grid-cols-2 xl:max-w-full xl:border dark:border-none bg-tertiary">
                 <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
                   پروفایل
                 </TabsTrigger>
