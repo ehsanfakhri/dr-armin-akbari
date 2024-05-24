@@ -31,7 +31,6 @@ export default function RootLayout({
       <body className={myFont.className}>
         <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
-          <FloatActionButton />
           <DrawerCall />
           {children}
           <Footer />

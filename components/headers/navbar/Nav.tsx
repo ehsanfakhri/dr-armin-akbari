@@ -30,7 +30,7 @@ const Nav = ({ containerStyles, LinkStyles, underLineStyles }: INavPrps) => {
         <Link
           key={index}
           href={link.path}
-          className={`capitalize ${LinkStyles}`}
+          className={`capitalize ${LinkStyles}  `}
         >
           {link.path === pathname && (
             <motion.span

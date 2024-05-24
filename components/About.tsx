@@ -219,7 +219,7 @@ const About = () => {
                 </TabsContent>
 
                 <TabsContent value="qualifications">
-                  <div className="flex flex-col items-center">
+                  <div className="flex flex-col mb-12 items-center">
                     <h3 className="h3 mb-8 py-6  ">تجربیات دکتر آرمین اکبری</h3>
                     {/* experience & education Wrapper */}
                     <div className="grid md:grid-cols-2 gap-y-8 ">
