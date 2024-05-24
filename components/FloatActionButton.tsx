@@ -39,7 +39,7 @@ import {
 
 const FloatActionButton = () => {
   return (
-    <div className="fixed top-[88%] left-[5%]  z-30">
+    <div className="fixed top-[88%] right-[5%]  z-30">
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button className="gap-4 bg-primary">
