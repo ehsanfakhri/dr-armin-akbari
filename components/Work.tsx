@@ -96,7 +96,7 @@ const projectData = [
 ];
 const Work = () => {
   return (
-    <section className=" h-[1000px]    ">
+    <section className=" h-[950px]    ">
       <div className="container mx-auto w-full">
         <div className="flex flex-col items-center  ">
           {/* text */}
@@ -122,7 +122,7 @@ const Work = () => {
           {/* slider */}
           <div className="max-w-full  ">
             <Swiper
-              className="h-[480px] "
+              className="h-[450px] "
               slidesPerView={1}
               breakpoints={{
                 640: {

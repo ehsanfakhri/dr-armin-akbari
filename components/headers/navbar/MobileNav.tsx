@@ -20,7 +20,7 @@ const MobileNav = () => {
             <Logo />
             <Nav
               containerStyles="flex flex-col flex-col-reverse items-center gap-y-6"
-              LinkStyles="text-3xl rounded-full p-4 px-8 w-full text-center dark:hover:bg-primary dark:bg-secondary 
+              LinkStyles="text-xl  p-4 px-8 w-full text-center dark:hover:bg-primary dark:bg-secondary 
                hover:text-white bg-primary-foreground hover:bg-primary"
             />
           </div>

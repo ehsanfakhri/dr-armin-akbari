@@ -28,7 +28,7 @@ import ShowPortfolio from "./ShowPortfolio";
 const Hero = () => {
   return (
     <section
-      className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat 
+      className="py-12 mb-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat 
     bg-bottom bg-cover dark:bg-none"
     >
       <div className="container mx-auto">
@@ -72,8 +72,8 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary  ">
               جراح و متخصص گوش و حلق و بینی
             </div>
-            <h1 className="h1 text-nowrap mb-4"> دکتر آرمین اکبری</h1>
-            <p className="subtitle max-w-[490px] mx-auto  xl:mx-0 xl:text-right text-center">
+            <h1 className="h2 sm:h1 text-nowrap mb-4"> دکتر آرمین اکبری</h1>
+            <p className="subtitle  max-w-[490px] mx-auto  xl:mx-0 xl:text-right text-center">
               متخصص گوش و حلق و بینی و جراحی زیبایی صورت و بینی، سینوس و
               اندوسکوپی، جراحی‌های اختلالات خواب و خروپف، جراحی‌های پروتز صورت
             </p>

@@ -19,18 +19,6 @@ const icons = [
   },
   {
     path: "/",
-    name: <RiLinkedinBoxFill />,
-  },
-  {
-    path: "/",
-    name: <RiGithubFill />,
-  },
-  {
-    path: "/",
-    name: <RiFacebookFill />,
-  },
-  {
-    path: "/",
     name: <RiInstagramFill />,
   },
 ];

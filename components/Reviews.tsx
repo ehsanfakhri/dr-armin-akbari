@@ -52,7 +52,7 @@ const Reviews = () => {
   return (
     <section className="mb-12 xl:mb-40">
       <div className="container mx-auto">
-        <h2 className="section-title mb-12 p-8 text-center mx-auto">
+        <h2 className="section-title mb-12 p-2 text-center mx-auto">
           نظرات کاربران
         </h2>
         {/* slider */}
@@ -72,10 +72,10 @@ const Reviews = () => {
           {reviwesData.map((person, index) => {
             return (
               <SwiperSlide key={index}>
-                <Card className="bg-primary-foreground dark:bg-secondary/40 p-8 min-h-[300px]">
-                  <CardHeader className="p-0 mb-10 ">
+                <Card className="bg-primary-foreground dark:bg-secondary/40  px-8 min-h-[280px]">
+                  <CardHeader className="">
                     <div className="flex items-center justify-end gap-x-4">
-                      <div className="flex flex-col">
+                      <div className="flex flex-col text-nowrap">
                         <CardTitle>{person.name}</CardTitle>
                       </div>
                       {/* image */}

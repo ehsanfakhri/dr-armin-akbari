@@ -188,19 +188,22 @@ const About = () => {
                 {/* personal */}
                 <TabsContent value="personal">
                   <div className="text-center xl:text-right">
-                    <h3 className="h3 my-4">
+                    <h4 className="h4 my-4">
                       متخصص گوش و حلق و بینی جراحی سرو گردن
-                    </h3>
-                    <p className="subtitle max-w-full  p-2 xl:text-justify leading-loose ">
+                    </h4>
+                    <p className="subtitle max-w-full   p-2 xl:text-right leading-loose ">
                       دکتر آرمین اکبری متخصص گوش و حلق و بینی و جراحی زیبایی
-                      صورت و بینی، سینوس و اندوسکوپی، جراحی‌های اختلالات خواب و
+                      صورت و بینی، سینوس واندوسکوپی، جراحی‌های اختلالات خواب و
                       خروپف، جراحی‌های پروتز صورت، بوتاکس و تزریق فیلر،
-                      جراحی‌های سر و گردن، تیرویید و غدد بزاغی هستند. ایشان از
-                      دکترای عمومی دانشگاه قزوین در سال ۱۳۹۲ فارغ التحصیل شدند و
-                      پس از آن دوره تخصص خود را در رشته گوش، حلق و بینی و جراحی
-                      سر و گردن در دانشگاه تهران آغاز نمودند. دکتر اکبری بورد
-                      تخصصی خود را از دانشگاه تهران دریافت کردند و در حال حاضر
-                      در قزوین و تهران مشغول به فعالیت هستند.
+                      جراحی‌های سروگردن، تیرویید وغدد بزاغی هستند.
+                      <span className="hidden xl:inline-block">
+                        ایشان از دکترای عمومی دانشگاه قزوین در سال ۱۳۹۲ فارغ
+                        التحصیل شدند و پس از آن دوره تخصص خود را در رشته گوش،
+                        حلق و بینی و جراحی سر و گردن در دانشگاه تهران آغاز
+                        نمودند.دکتراکبری بورد تخصصی خودراازدانشگاه تهران
+                        دریافت کردند و درحال حاضر در قزوین و تهران مشغول به
+                        فعالیت هستند.
+                      </span>
                     </p>
                     {/* icons */}
                     <div className="grid grid-col gap-4 mb-12">
@@ -220,13 +223,13 @@ const About = () => {
 
                 <TabsContent value="qualifications">
                   <div className="flex flex-col mb-12 items-center">
-                    <h3 className="h3 mb-8 py-6  ">تجربیات دکتر آرمین اکبری</h3>
+                    <h4 className="h4 mb-8 py-6  ">تجربیات دکتر آرمین اکبری</h4>
                     {/* experience & education Wrapper */}
                     <div className="grid md:grid-cols-2 gap-y-8 ">
                       {/* experience */}
                       <div className="flex flex-col gap-y-12">
                         <div className="flex gap-x-4 items-center justify-end text-[22px] text-primary ">
-                          <h4 className="capitalize font-medium">
+                          <h4 className="font-medium">
                             {getData(qualificationData, "تجربیات")?.title}
                           </h4>
                           <Briefcase size={28} />
