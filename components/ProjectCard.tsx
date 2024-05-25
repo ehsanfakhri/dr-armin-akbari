@@ -20,19 +20,19 @@ type ProjectProps = {
     image_befor?: string;
     image_after?: string;
     category: string;
-    name: string;
-    description: string;
+    name?: string;
+    description?: string;
     link: string;
   };
 };
 
 const ProjectCard = ({ project }: ProjectProps) => {
   return (
-    <Card className="group overflow-hidden relative   ">
+    <Card className="group xl:w-[400px] mx-auto overflow-hidden relative  ">
       <CardHeader className="p-0">
         {/* image */}
         <div
-          className="relative w-full h-[300px] flex items-center justify-center 
+          className="relative xl:w-[450px] w-[300px] mx-auto h-[300px] flex items-center justify-center 
          bg-tertiary dark:bg-secondary/40 xl:bg-work_project_bg_light xl:dark:bg-work_project_bg_dark xl:bg-[110%] xl:bg-no-repeat overflow-hidden"
         >
           <Image
@@ -58,7 +58,6 @@ const ProjectCard = ({ project }: ProjectProps) => {
           {project.category}
         </Badge>
         <h4 className="h4 text-center mb-1">{project.name}</h4>
-        
       </div>
     </Card>
   );

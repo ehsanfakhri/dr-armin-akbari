@@ -10,46 +10,40 @@ import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 import ProjectCard from "@/components/ProjectCard";
 
 // project data
+
 const projectData = [
   {
-    image: "/hero/befor-after-1.jpg",
+    image: "/portfolios/portfolio-1/befor-after.jpg",
+    image_befor: "/portfolios/portfolio-1/befor.jpg",
+    image_after: "/portfolios/portfolio-1/after.jpg",
     category: "عمل بینی",
-    name: "Next Website",
+    name: "بینی استخوانی",
     description: "Lorem ipsun dolor sit amet consectetur adipisicing",
     link: "/",
   },
   {
-    image: "/hero/befor-after-2.jpg",
+    image: "/portfolios/portfolio-2/befor-after.jpg",
+    image_befor: "/portfolios/portfolio-2/befor.jpg",
+    image_after: "/portfolios/portfolio-2/after.jpg",
     category: "عمل بینی",
-    name: "Solstice Website",
+    name: "بینی گوشتی",
     description: "Lorem ipsun dolor sit amet consectetur adipisicing",
     link: "/",
   },
   {
-    image: "/hero/befor-after-3.jpg",
-    category: "تزریق بوتاکس",
-    name: "Lumina Website",
+    image: "/portfolios/portfolio-3/befor-after.jpg",
+    image_befor: "/portfolios/portfolio-3/befor.jpg",
+    image_after: "/portfolios/portfolio-3/after.jpg",
+    category: " تزریق بوتاکس و ژل",
     description: "Lorem ipsun dolor sit amet consectetur adipisicing",
     link: "/",
   },
   {
-    image: "/hero/befor-after-1.jpg",
-    category: "عمل بینی",
-    name: "Next Website",
-    description: "Lorem ipsun dolor sit amet consectetur adipisicing",
-    link: "/",
-  },
-  {
-    image: "/hero/befor-after-2.jpg",
-    category: "عمل بینی",
-    name: "Solstice Website",
-    description: "Lorem ipsun dolor sit amet consectetur adipisicing",
-    link: "/",
-  },
-  {
-    image: "/hero/befor-after-3.jpg",
-    category: "تزریق بوتاکس",
-    name: "Lumina Website",
+    image: "/portfolios/portfolio-1/befor-after.jpg",
+    image_befor: "/portfolios/portfolio-1/befor.jpg",
+    image_after: "/portfolios/portfolio-1/after.jpg",
+    category: "تزریق بوتاکس و ژل",
+    name: "پوست",
     description: "Lorem ipsun dolor sit amet consectetur adipisicing",
     link: "/",
   },
@@ -62,7 +56,7 @@ const uniqueCategories = [
   "اتوپلاستی گوش",
   "عمل جلوآوردن چانه",
   "درمان آپنه خواب",
-  "تزریق بوتاکس",
+  " تزریق بوتاکس و ژل",
   " پولیپ بینی",
   "بلفاروپلاستی",
 ];

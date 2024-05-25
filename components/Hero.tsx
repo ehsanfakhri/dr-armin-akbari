@@ -69,10 +69,13 @@ const Hero = () => {
             className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0
           text-center xl:text-left"
           >
-            <div className="text-sm uppercase font-semibold mb-4 text-primary  ">
+            <div className="text-sm sm:text-center font-semibold mb-4 text-primary  ">
               جراح و متخصص گوش و حلق و بینی
             </div>
-            <h1 className="h2 sm:h1 text-nowrap mb-4"> دکتر آرمین اکبری</h1>
+            <h1 className="h2 sm:h1 xl:text-right text-nowrap mb-4">
+              {" "}
+              دکتر آرمین اکبری
+            </h1>
             <p className="subtitle  max-w-[490px] mx-auto  xl:mx-0 xl:text-right text-center">
               متخصص گوش و حلق و بینی و جراحی زیبایی صورت و بینی، سینوس و
               اندوسکوپی، جراحی‌های اختلالات خواب و خروپف، جراحی‌های پروتز صورت
