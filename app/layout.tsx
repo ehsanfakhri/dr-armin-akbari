@@ -8,12 +8,13 @@ const myFont = localFont({ src: "../public/fonts/iran-sans-web.woff2" });
 
 // components
 import Header from "@/components/headers/Header";
-import Footer from "@/components/Footer";
+import Footer from "@/components/footer/Footer";
 
 // theme provider
 import { ThemeProvider } from "@/components/ThemeProvider";
 import FloatActionButton from "@/components/FloatActionButton";
 import DrawerCall from "@/components/DrawerCall";
+import CopyRight from "@/components/footer/copyright/CopyRight";
 
 export const metadata: Metadata = {
   title: "  جراح متخصص عمل بینی | دکتر آرمین اکبری",
@@ -34,6 +35,7 @@ export default function RootLayout({
           <DrawerCall />
           {children}
           <Footer />
+          <CopyRight />
         </ThemeProvider>
       </body>
     </html>

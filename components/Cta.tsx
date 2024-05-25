@@ -27,7 +27,8 @@ const Cta = () => {
           {/* text */}
           <div className="flex flex-col gap-8 w-full items-end ">
             <h4 className="h4 max-w-xl text-right ">
-              <span className="text-white text-nowrap">دکتر آرمین اکبری </span> <br />
+              <span className="text-white text-nowrap">دکتر آرمین اکبری </span>{" "}
+              <br />
               <br />
               را در شبکه های اجتماعی دنبال کنید
             </h4>
@@ -37,8 +38,8 @@ const Cta = () => {
               مطالب روز پزشکی با ما در ارتباط باشید
             </p>
             <Socials
-              containerStyles="flex gap-x-6 mx-auto xl:mx-0 mb-4"
-              iconsStyles="text-primary dark:text-white/70 text-[20px] dark:hover:text-primary transition-all"
+              containerStyles="flex gap-x-6 mx-auto xl:mx-0 mb-4 item-center"
+              iconsStyles="text-primary hover:text-white/70 dark:text-white/70 text-[40px] dark:hover:text-primary transition-all"
             />
           </div>
         </div>
