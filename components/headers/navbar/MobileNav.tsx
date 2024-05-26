@@ -15,12 +15,13 @@ const MobileNav = () => {
         <AlignJustify />
       </SheetTrigger>
       <SheetContent>
-        <div className="backdrop-blur-[2px] rounded-full w- ">
+        <div className=" ">
           <div className="flex flex-col items-center justify-between h-screen py-8  ">
             <div className="flex flex-col items-center gap-y-32">
-              <div className="bg-primary dark:bg-secondary w-full rounded-sm p-4  opacity-70 ">
+              <Logo />
+              <div className=" w-full rounded-sm   ">
                 <Nav
-                  containerStyles="flex flex-col flex-col-reverse items-center gap-y-6   "
+                  containerStyles="flex flex-col flex-col-reverse items-center gap-y-6"
                   LinkStyles="text-xl  p-4 px-8 w-full text-center rounded-full dark:hover:bg-primary dark:bg-secondary 
                hover:text-black text-white bg-primary hover:bg-white"
                 />

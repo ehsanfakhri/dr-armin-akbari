@@ -6,6 +6,20 @@ import Link from "next/link";
 // next hooks
 import { usePathname } from "next/navigation";
 
+// icons lucide react
+import {
+  User2,
+  MailIcon,
+  HomeIcon,
+  PhoneCall,
+  GraduationCap,
+  Calendar,
+  Briefcase,
+  GalleryThumbnails,
+  Headset,
+  Icon,
+} from "lucide-react";
+
 interface INavPrps {
   containerStyles?: string;
   LinkStyles?: string;
@@ -17,9 +31,21 @@ import { motion } from "framer-motion";
 import React from "react";
 
 const links = [
-  { path: "/contact", name: "تماس" },
-  { path: "/projects", name: "نمونه کارها" },
-  { path: "/", name: "خانه" },
+  {
+    path: "/contact",
+    name: "تماس",
+    icon: <Headset size={"20"} strokeWidth={3} />,
+  },
+  {
+    path: "/projects",
+    name: "نمونه کارها",
+    icon: <GalleryThumbnails size={"20"} strokeWidth={3} />,
+  },
+  {
+    path: "/",
+    name: "خانه",
+    icon: <HomeIcon size={"20"} strokeWidth={3} />,
+  },
 ];
 
 const Nav = ({ containerStyles, LinkStyles, underLineStyles }: INavPrps) => {
@@ -41,7 +67,10 @@ const Nav = ({ containerStyles, LinkStyles, underLineStyles }: INavPrps) => {
               className={`${underLineStyles}`}
             />
           )}
-          {link.name}
+          <div className="flex items-center justify-end text-sm gap-2">
+            {link.name}
+            {link.icon}
+          </div>
         </Link>
       ))}
     </nav>
