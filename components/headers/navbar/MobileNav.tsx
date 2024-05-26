@@ -15,7 +15,7 @@ const MobileNav = () => {
         <AlignJustify />
       </SheetTrigger>
       <SheetContent>
-        <div className="backdrop-blur-[2px] rounded-full  ">
+        <div className="backdrop-blur-[2px] rounded-full w- ">
           <div className="flex flex-col items-center justify-between h-screen py-8  ">
             <div className="flex flex-col items-center gap-y-32">
               <div className="bg-primary dark:bg-secondary w-full rounded-sm p-4  opacity-70 ">
