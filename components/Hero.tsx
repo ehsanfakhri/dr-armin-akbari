@@ -76,14 +76,14 @@ const Hero = () => {
               {" "}
               دکتر آرمین اکبری
             </h1>
-            <p className="subtitle  max-w-[490px] mx-auto  xl:mx-0 xl:text-right text-center">
+            <p className="subtitle   max-w-[490px] mx-auto  xl:mx-0 xl:text-right text-center">
               متخصص گوش و حلق و بینی و جراحی زیبایی صورت و بینی، سینوس و
               اندوسکوپی، جراحی‌های اختلالات خواب و خروپف، جراحی‌های پروتز صورت
             </p>
 
             {/* show portfolio */}
             <div className="xl:hidden">
-              <ShowPortfolio />
+              <ShowPortfolio containerStyle=" " />
             </div>
             {/* buttons */}
             <div className="flex flex-col gap-y-3  gap-x-3 mx-auto xl:mx-0 xl:flex-row mb-12">
