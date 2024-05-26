@@ -93,6 +93,7 @@ const config = {
         work_project_bg_dark: "url(/work/project-bg-dark.png)",
         contact_illustration_light: "url(/contact/illustration-light.svg)",
         contact_illustration_dark: "url(/contact/illustration-dark.svg)",
+        akbari_bg_mobile: "url(/person/pic-akbari-mobile-nav-4.png)",
       },
     },
   },
