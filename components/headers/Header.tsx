@@ -43,7 +43,7 @@ const Header = () => {
             {/* nav */}
             <Nav
               containerStyles="hidden xl:flex gap-x-8 items-center"
-              LinkStyles="relative hover:text-primary transition-all"
+              LinkStyles="relative sm:hover:text-secndry hover:text-primary transition-all"
               underLineStyles="absolute left-0 top-full h-[2px] bg-primary w-full"
             />
             <ThemeToggler />

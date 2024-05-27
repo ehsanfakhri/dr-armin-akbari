@@ -18,6 +18,7 @@ import {
   GalleryThumbnails,
   Headset,
   Icon,
+  SquareLibrary,
 } from "lucide-react";
 
 interface INavPrps {
@@ -37,9 +38,14 @@ const links = [
     icon: <Headset size={"20"} strokeWidth={3} />,
   },
   {
+    path: "/blog",
+    name: "بلاگ",
+    icon: <GalleryThumbnails size={"20"} strokeWidth={3} />,
+  },
+  {
     path: "/projects",
     name: "نمونه کارها",
-    icon: <GalleryThumbnails size={"20"} strokeWidth={3} />,
+    icon: <SquareLibrary size={"20"} strokeWidth={3} />,
   },
   {
     path: "/",
@@ -67,7 +73,7 @@ const Nav = ({ containerStyles, LinkStyles, underLineStyles }: INavPrps) => {
               className={`${underLineStyles}`}
             />
           )}
-          <div className="flex items-center justify-end text-sm gap-2">
+          <div className="flex items-center justify-end text-lg gap-3">
             {link.name}
             {link.icon}
           </div>
