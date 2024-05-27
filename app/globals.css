@@ -88,7 +88,7 @@
 }
 
 .h4 {
-  @apply text-[22px] font-semibold;
+  @apply text-[12px] font-semibold;
 }
 
 .subtitle {
