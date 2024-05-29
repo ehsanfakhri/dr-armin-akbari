@@ -159,9 +159,9 @@ const About = () => {
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           درباره دکتر آرمین اکبری
         </h2>
-        <div className="flex flex-col xl:flex-row">
+        <div className="flex flex-col items-center xl:flex-row">
           {/* image */}
-          <div className="hidden xl:flex flex-1 relative">
+          <div className="hidden sm:flex flex-1 relative">
             <MrImg
               containerStyle="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
               imgSrc="/about/dr-akbari.webp"
@@ -200,9 +200,9 @@ const About = () => {
                         ایشان از دکترای عمومی دانشگاه قزوین در سال ۱۳۹۲ فارغ
                         التحصیل شدند و پس از آن دوره تخصص خود را در رشته گوش،
                         حلق و بینی و جراحی سر و گردن در دانشگاه تهران آغاز
-                        نمودند.دکتراکبری بورد تخصصی خودراازدانشگاه تهران
-                        دریافت کردند و درحال حاضر در قزوین و تهران مشغول به
-                        فعالیت هستند.
+                        نمودند.دکتراکبری بورد تخصصی خودراازدانشگاه تهران دریافت
+                        کردند و درحال حاضر در قزوین و تهران مشغول به فعالیت
+                        هستند.
                       </span>
                     </p>
                     {/* icons */}
