@@ -72,14 +72,14 @@ const DrawerCall = () => {
                   </Button>
                   <Button
                     variant={"secondary"}
-                    className="flex gap-2 text-sm p-4 justify-end bg-green-500"
+                    className="flex gap-2 text-sm p-4 justify-end bg-green-500 hover:bg-green-300"
                   >
                     <p>مشاوره واتسپ </p>
                     <PhoneCall />
                   </Button>
                   <Button
                     variant={"outline"}
-                    className="flex gap-2 text-sm p-4 justify-end"
+                    className="flex gap-2 text-sm p-4 justify-end bg-primary text-primary-foreground"
                   >
                     <p> دریافت نوبت آنلاین </p>
                     <PhoneCall />

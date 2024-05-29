@@ -30,7 +30,7 @@ const BlogAccordion = () => {
           </AccordionItem>
         </Accordion>
         <div className="flex items-center text-[10px] p-2 rounded-md gap-2 bg-gradient-to-r from-blue-500 to-pink-600 ">
-          <div className="w-full text-right">
+          <div className="w-full min-w-28 text-right">
             <p className="text-background ">اینستاگرام</p>
             <p className="text-background">نمونه کار و رضایت بیمار</p>
           </div>
